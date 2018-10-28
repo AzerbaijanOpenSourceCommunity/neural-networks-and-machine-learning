@@ -1,4 +1,4 @@
-#2. Meet Dr. Ignaz Semmelweis
+Meet Dr. Ignaz Semmelweis
 
 <div align="center">
 

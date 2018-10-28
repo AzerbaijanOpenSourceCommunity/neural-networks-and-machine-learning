@@ -1,5 +1,6 @@
+<h1 align='center'>
 Meet Dr. Ignaz Semmelweis
-
+</h1>
 <div align="center">
  <img src="https://raw.githubusercontent.com/AzerbaijanOpenSourceCommunity/neural-networks-and-machine-learning/master/images/ignaz_semmelweis.jpg" align='center'/>
 </div>

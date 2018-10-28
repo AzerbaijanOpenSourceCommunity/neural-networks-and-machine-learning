@@ -1,4 +1,4 @@
-#2. Meet Dr. Ignaz Semmelweis
+Meet Dr. Ignaz Semmelweis
 
 [Ignaz Semmelweis's image](http://semmelweis.org/wp-content/uploads/ignaz_semmelweis.jpg)
 

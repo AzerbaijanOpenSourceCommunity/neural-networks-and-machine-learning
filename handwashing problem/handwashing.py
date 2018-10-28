@@ -1,5 +1,5 @@
 import pandas as pd
-
+# reading csv file
 yearly = pd.read_csv("datasets/yearly_deaths_by_clinic.csv")
 
 yearly["proportion_deaths"] = yearly["deaths"] / yearly["births"]

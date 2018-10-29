@@ -6,7 +6,7 @@
 </div>
 <br>
 <ul>
-<li><span style='color:red'>Red</span> line indicates regression line</li>
+<li><span style='color:#f03c15'>Red</span> line indicates regression line</li>
 <li><span style='color:blue'>Blue</span> points our actual data - observation points</li>
 <li><span style='color:black'>Black lines called <b>residuals - difference between the observation points and fitted line</b></li>
 </ul>

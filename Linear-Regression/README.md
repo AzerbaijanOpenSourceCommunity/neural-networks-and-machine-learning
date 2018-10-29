@@ -32,7 +32,7 @@
   ***
   
 <div align='center'>
-<img align="center" src=''>
+<img align="center" src='https://raw.githubusercontent.com/AzerbaijanOpenSourceCommunity/neural-networks-and-machine-learning/master/images/lr_boston.png'>
 </div>
   
   

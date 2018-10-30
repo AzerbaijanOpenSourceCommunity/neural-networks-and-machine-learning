@@ -39,4 +39,10 @@ after_washing = monthly[monthly["date"] >= handwashing_start]
 ax = before_washing.plot("date", "proportion_deaths", label='Before Washing', color='b')
 after_washing.plot("date", "proportion_deaths", label="After Washing", ax = ax, color='r')
 ax.set_ylabel('Proportion Deaths')
+
+# Difference in mean monthly proportion of deaths due to handwashing
+before_proportion = before_washing["proportion_deaths"]
+after_proportion = after_washing["proportion_deaths"]
+mean_diff = after_proportion.mean() - before_proportion.mean()
+print(mean_diff)
 # IT HAS NOT COMPLETED YET

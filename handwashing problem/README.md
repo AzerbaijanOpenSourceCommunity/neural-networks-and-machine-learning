@@ -1,5 +1,5 @@
 <h1 align='center'>
-Meet Dr. Ignaz Semmelweis
+1. Meet Dr. Ignaz Semmelweis
 </h1>
 <div align="center">
  <img src="https://raw.githubusercontent.com/AzerbaijanOpenSourceCommunity/neural-networks-and-machine-learning/master/images/ignaz_semmelweis.jpg" align='center'/>
@@ -11,4 +11,14 @@ In this project, we're going to reanalyze the [data](https://github.com/Azerbaij
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/AzerbaijanOpenSourceCommunity/neural-networks-and-machine-learning/master/images/data.png" align='center'/>
+</div>
+
+<h1 align='center'>
+2. Proportion of deaths on both clinics
+</h1>
+The table above shows the number of women giving birth at the two clinics at the Vienna General Hospital for the years 1841 to 1846. You'll notice that giving birth was very dangerous; an alarming number of women died as the result of childbirth, most of them from childbed fever.
+
+We see this more clearly if we look at the proportion of deaths out of the number of women giving birth. The <b>graph</b> below illustrate information about yearly proportion of deaths at both clinic 1 and clinic 2.
+<div align='center'>
+<img src="https://raw.githubusercontent.com/AzerbaijanOpenSourceCommunity/neural-networks-and-machine-learning/master/images/yearly_plot_by_clinic.png </img>
 </div>

@@ -21,6 +21,6 @@ monthly = pd.read_csv('datasets/monthly_deaths.csv', parse_dates=['date'])
 monthly["proportion_deaths"] = monthly["deaths"] / monthly["births"]
 
 # Printing out the first rows in monthly
-monthly.head()
+monthly.head(5)
 
 # IT HAS NOT COMPLETED YET

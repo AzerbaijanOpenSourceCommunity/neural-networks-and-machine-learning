@@ -23,4 +23,20 @@ monthly["proportion_deaths"] = monthly["deaths"] / monthly["births"]
 # Printing out the first rows in monthly
 monthly.head(5)
 
+# Plotting monthly proportion of deaths
+ax = monthly.plot('date', 'proportion_deaths')
+ax.set_ylabel('Proportion Deaths')
+
+
+# Date when handwashing was made mandatory
+handwashing_start = pd.to_datetime('1847-06-01')
+
+# Splitting monthly into before and after handwashing_start
+before_washing = monthly[monthly["date"] < handwashing_start]
+after_washing = monthly[monthly["date"] >= handwashing_start]
+
+# Plotting monthly proportion of deaths before and after handwashing
+ax = before_washing.plot("date", "proportion_deaths", label='Before Washing', color='b')
+after_washing.plot("date", "proportion_deaths", label="After Washing", ax = ax, color='r')
+ax.set_ylabel('Proportion Deaths')
 # IT HAS NOT COMPLETED YET

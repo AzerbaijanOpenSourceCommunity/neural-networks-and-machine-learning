@@ -51,12 +51,22 @@ MSE = metrics.mean_squared_error(y_test, predictions)
 RMSE = np.sqrt(metrics.mean_squared_error(y_test, predictions))
 
 print('MAE : {} \n\nMSE :  {} \n\nRMSE :{}   \n\n'.format(MAE, MSE, RMSE))  # 3.80 ; 28.88 ;  5.37
+#
+# plt.scatter(model.predict(X_train), model.predict(X_train) - y_train, c='b', s=40, alpha=0.4, label='Training Data')
+# plt.scatter(model.predict(X_test), model.predict(X_test) - y_test, c='g', s=40, label="Test Data")
+# plt.hlines(y=0, xmax=50, xmin=0, label="Regression Line", linestyles='solid')
+# plt.title("Residual Plot using training(blue) & test(green) data")
+# plt.ylabel('Residuals')
+# plt.legend()
 
-plt.scatter(model.predict(X_train), model.predict(X_train) - y_train, c='b', s=40, alpha=0.4, label='Training Data')
-plt.scatter(model.predict(X_test), model.predict(X_test) - y_test, c='g', s=40, label="Test Data")
-plt.hlines(y=0, xmax=50, xmin=0, label="Regression Line", linestyles='solid')
-plt.title("Residual Plot using training(blue) & test(green) data")
-plt.ylabel('Residuals')
-plt.legend()
+mean_predictions = np.mean(predictions)
+mean_target = np.mean(y_test)
+
+plt.scatter(y_test, predictions)
+plt.axis('tight')
+plt.plot([0, mean_predictions+mean_target], [0, mean_predictions+mean_target])
+plt.xlabel('True price ($1000s)')
+plt.ylabel('Predicted price ($1000s)')
+plt.tight_layout()
 
 plt.show()

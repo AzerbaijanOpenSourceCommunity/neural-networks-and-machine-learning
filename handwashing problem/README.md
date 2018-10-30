@@ -9,3 +9,6 @@ This is Dr. Ignaz Semmelweis, a Hungarian physician born in 1818 and active at t
 
 In this project, we're going to reanalyze the [data](https://github.com/AzerbaijanOpenSourceCommunity/neural-networks-and-machine-learning/blob/master/datasets/yearly_deaths_by_clinic.csv) that made Semmelweis discover the importance of handwashing. Let's start by looking at the data that made Semmelweis realize that something was wrong with the procedures at Vienna General Hospital.
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/AzerbaijanOpenSourceCommunity/neural-networks-and-machine-learning/master/images/data.png" align='center'/>
+</div>

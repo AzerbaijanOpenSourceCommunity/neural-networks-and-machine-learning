@@ -10,7 +10,7 @@ yearly2 = yearly[yearly["clinic"] == 'clinic 2']
 
 # Plotting the yearly proportion of deaths for both clinics.
 ax = yearly1.plot('year', 'proportion_deaths', label='Clinic 1')
-yearly2.plot('year', 'proportion_deaths', label='Clinic 1', ax = ax)
+yearly2.plot('year', 'proportion_deaths', label='Clinic 2', ax = ax)
 ax.legend(loc = 0)
 ax.set_ylabel('Proportion Deaths')
 

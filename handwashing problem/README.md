@@ -22,3 +22,15 @@ We see this more clearly if we look at the proportion of deaths out of the numbe
 <div align='center'>
 <img src="https://raw.githubusercontent.com/AzerbaijanOpenSourceCommunity/neural-networks-and-machine-learning/master/images/yearly_plot_by_clinic.png" align='center'/>
 </div>
+<h1 align='center'> 3. The effect of handwashing </h1>
+With the data loaded we can now look at the proportion of deaths over time. In the plot below we haven't marked where obligatory handwashing started, but it reduced the proportion of deaths to such a degree that you should be able to spot it!
+<div align='center'>
+<img src="https://raw.githubusercontent.com/AzerbaijanOpenSourceCommunity/neural-networks-and-machine-learning/master/images/monthly_plot_clinic1.png" align='center'/>
+</div>
+<h1 align='center'> The effect of handwashing highlighted </h1>
+Starting from the summer of 1847 the proportion of deaths is drastically reduced and, yes, this was when Semmelweis made handwashing obligatory.
+
+The effect of handwashing is made even more clear if we highlight this in the graph.
+<div align='center'>
+<img src="https://raw.githubusercontent.com/AzerbaijanOpenSourceCommunity/neural-networks-and-machine-learning/master/images/bef_af_washing.png" align='center'/>
+</div>

@@ -50,7 +50,7 @@ The estimate is then calculated using `boot_col` instead of `my_col`. This proce
 
 `pd.Series(boot_mean).quantile([0.025, 0.975])`
 <h1 align='center'> 7. The fate of Dr. Semmelweis </h1>
-So handwashing reduced the proportion of deaths by between <b>6.7 and 10</b> _(You can see it by running code)_ percentage points, according to a <b>95%</b> confidence interval. All in all, it would seem that Semmelweis had solid evidence that handwashing was a simple but highly effective procedure that could save many lives.
+So handwashing reduced the proportion of deaths by between <b>6.7</b> and <b>10</b> _(You can see it by running code)_ percentage points, according to a <b>95%</b> confidence interval. All in all, it would seem that Semmelweis had solid evidence that handwashing was a simple but highly effective procedure that could save many lives.
 
 The tragedy is that, despite the evidence, Semmelweis' theory — that childbed fever was caused by some _substance_ (what we today know as bacteria) from autopsy room corpses — was ridiculed by contemporary scientists. The medical community largely rejected his discovery and in 1849 he was forced to leave the Vienna General Hospital for good.
 

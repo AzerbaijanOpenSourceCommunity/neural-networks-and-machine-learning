@@ -20,7 +20,7 @@ The table above shows the number of women giving birth at the two clinics at the
 
 We see this more clearly if we look at the proportion of deaths out of the number of women giving birth. The <b>graph</b> below illustrate information about yearly proportion of deaths at both clinic 1 and clinic 2.
 <div align='center'>
-<img src="https://raw.githubusercontent.com/AzerbaijanOpenSourceCommunity/neural-networks-and-machine-learning/master/images/yearly_plot_by_clinic.png" align='center'/>
+<img src="https://raw.githubusercontent.com/AzerbaijanOpenSourceCommunity/neural-networks-and-machine-learning/master/images/yearly_plot_by_clinic_new.png" align='center'/>
 </div>
 <h1 align='center'> 3. The effect of handwashing </h1>
 With the data loaded we can now look at the proportion of deaths over time. In the plot below we haven't marked where obligatory handwashing started, but it reduced the proportion of deaths to such a degree that you should be able to spot it!

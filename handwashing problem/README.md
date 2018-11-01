@@ -34,3 +34,18 @@ The effect of handwashing is made even more clear if we highlight this in the gr
 <div align='center'>
 <img src="https://raw.githubusercontent.com/AzerbaijanOpenSourceCommunity/neural-networks-and-machine-learning/master/images/bef_af_washing.png" align='center'/>
 </div>
+
+<h1 align='center'> 4. More handwashing, fewer deaths? </h1>
+Again, the graph shows that handwashing had a huge effect. How much did it reduce the monthly proportion of deaths on average?
+We calculate that by finding difference in <b>mean</b> monthly proportion of deaths due to handwashing. In our case that is <b> -0.08395660751183336 </b>
+
+<h1 align='center'> 5. A Bootstrap analysis of Semmelweis handwashing data </h1>
+It reduced the proportion of deaths by around 8 percentage points! From 10% on average to just 2% (which is still a high number by modern standards).
+
+To get a feeling for the uncertainty around how much handwashing reduces mortalities we could look at a confidence interval (here calculated using the bootstrap method).
+A bootstrap analysis is a quick way of getting at the uncertainty of an estimate, in your case the estimate is the `mean_diff` that we calculated before (-0.08395660751183336 ). A bootstrap analysis works by simulating redoing the data collection by drawing randomly from the data and allowing a value to be drawn many times. Using a pandas column `my_col` (also called a Series) this can be done like this:
+
+`boot_col = my_col.sample(frac=1, replace=True)`
+The estimate is then calculated using `boot_col` instead of `my_col`. This process is repeated a large number of times (in our case 3000) and the distribution of the bootstrapped estimates represents the uncertainty around the original estimate. If `boot_mean` is a list of bootstrap estimates you can calculate a <b>95%</b> confidence interval using pandas:
+
+`pd.Series(boot_mean).quantile([0.025, 0.975])`

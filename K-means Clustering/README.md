@@ -29,5 +29,5 @@ plt.scatter(kmeans.cluster_centers_[:,0],kmeans.cluster_centers_[:,1],color="bla
 
 <div align="center">
 <h4 text-align='center'>Visualization of labels & clusters' centers</h4>
-<img text-align='center' src='https://raw.githubusercontent.com/AzerbaijanOpenSourceCommunity/neural-networks-and-machine-learning/master/images/k-means-clustering-visualization.png'>
+<img text-align='center' src='https://raw.githubusercontent.com/AzerbaijanOpenSourceCommunity/neural-networks-and-machine-learning/master/images/clusters-centroids.png'>
 </div>

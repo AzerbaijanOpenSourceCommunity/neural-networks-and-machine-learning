@@ -12,6 +12,3 @@ print(kmeans.labels_)
 plt.scatter(X[:,0],X[:,1],c=kmeans.labels_,cmap='rainbow')
 plt.scatter(kmeans.cluster_centers_[:,0],kmeans.cluster_centers_[:,1],color="black")
 plt.show()
-url = str(sys.argv[1:])
-url2 = sys.argv[1]
-print(url ,url2)
